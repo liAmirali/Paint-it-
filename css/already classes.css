@@ -1,0 +1,56 @@
+/*	Created by liAmirali on 2/17/2017	*/
+/*	kavansanat.com	*/
+
+
+
+body{
+	margin: 0;
+	cursor: default;
+}
+
+p{
+	margin: 0;
+	padding: 0;
+}
+
+div{
+	margin: 0;
+	padding: 0;
+}
+
+
+.floatLeft{
+	float: left;
+}
+
+.floatRight{
+	float: right;
+}
+
+.rightAlign{
+	text-align: right;
+}
+
+.leftAlign{
+	text-align: left;
+}
+
+.centerAlign{
+	text-align: center;
+}
+
+.FarsiText{
+	direction: rtl;
+	text-align: justify;
+	font-family: 'BNazanin';
+}
+
+.separator-normal {
+	clear: both;
+	margin: 20px 20px;
+}
+
+.separator-big {
+	clear: both;
+	margin: 40px 20px;
+}

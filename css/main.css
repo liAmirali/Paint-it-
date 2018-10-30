@@ -1,0 +1,90 @@
+#wrapper{
+	width: 100%;
+	height: 1000px;
+
+	background-color: #333;
+}
+
+
+/* Tool Box >>> */
+#tool-box{
+	width: 20%;
+	height: 100%;
+
+	display: inline-block;
+	float: left;
+
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: #555;
+}
+#nav-tool-box{
+	width: 100%;
+	height: 20%;
+}
+#nav-tool-box p{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50% , -50%);
+	text-align: center;
+
+	font-size: 60px;
+	font-family: 'tree font';
+	color: white;
+}
+#tools-div{
+	width: 100%;
+	height: 70%;
+}
+#tools-div p{
+	position: relative;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50% , -50%);
+	text-align: center;
+
+	padding-top: 20px;
+
+	font-size: 30px;
+	font-family: 'HelveticaNeue-Light';
+	color: white;
+}
+#footer-tool-box{
+	width: 100%;
+	height: 10%;
+}
+
+#footer-tool-box p{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50% , -50%);
+	text-align: center;
+
+	font-size: 15px;
+	font-family: 'HelveticaNeue-Light';
+	color: white;
+}
+/* Tool Box <<< */
+
+
+
+/* Canvas >>> */
+#canvas{
+	width: 60%;
+	/* HEIGHT is set as equal as WIDTH in ../js/main.js */
+
+	position: relative;
+	top: 50%;
+	left: 40%;
+	transform: translate(-50%,-50%);
+
+	display: inline-grid;
+	grid-template: repeat(40, 1fr) / repeat(40, 1fr);
+
+	background-color: white;
+}
+#canvas .pixels{
+	cursor: crosshair;
+}
+/* Canvas <<< */

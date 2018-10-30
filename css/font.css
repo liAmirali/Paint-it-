@@ -1,0 +1,9 @@
+@font-face {
+	font-family: "tree font";
+	src: url("../fonts/Precious.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "HelveticaNeue-Light";
+	src: url("../fonts/HelveticaNeueCyr-Light.otf") format("opentype");
+}

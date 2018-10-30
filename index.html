@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>paint it!</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/font.css">
+	<link rel="stylesheet" type="text/css" href="css/already classes.css">
+</head>
+<body>
+	<div id="wrapper">
+		<!-- <div id="cursor-holder"></div> -->
+		<div id="tool-box">
+			<div id="nav-tool-box">
+				<p>paint it!</p>
+			</div>
+			<div id="tools-div">
+				<p class="colors" id="red" onclick="selectColor('red')" style="color: red">red</p>
+				<p class="colors" id="green" onclick="selectColor('green')">green</p>
+				<p class="colors" id="blue" onclick="selectColor('blue')">blue</p>
+				<p class="colors" id="white" onclick="selectColor('white')">eraser</p>
+			</div>
+			<div id="footer-tool-box">
+				<p>&copy; Developed By liAmirali.</p>
+			</div>
+		</div>
+		<div id="canvas"></div>
+	</div>
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
